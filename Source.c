@@ -2,7 +2,6 @@
 #define _USE_MATH_DEFINES
 #include <stdio.h>
 #include <math.h>
-#include <windows.h>
 #include <locale.h> 
 
 int main(void) {
