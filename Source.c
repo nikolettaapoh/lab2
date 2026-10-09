@@ -5,9 +5,13 @@
 #include <locale.h> 
 
 int main(void) {
-	setlocale(LC_ALL, ".UTF-8");
+	setlocale(LC_ALL, "uk_UA.UTF-8");
+
+#ifdef _WIN32
 	SetConsoleCP(65001);
 	SetConsoleOutputCP(65001);
+#endif
+
 	// Оголошення та обов'язкова ініціалізація змінних
 	double x = 0, y = 0, z = 0;
 	double a = 0, b = 0, c = 0, d = 0, f = 0;
